@@ -59,7 +59,8 @@ body{
 
 /* HEADER */
 header{
-    background-color: #222085;
+    /*background-color: #222085;*/
+    background-color: black;
     padding-top: 30px;
 }
 header .container{
@@ -77,19 +78,24 @@ header .coluna-esquerda img{
     max-width: 100%;
 }
 
-header{}
-header .linha {}
-header .coluna {}
-header .coluna img {
+header .coluna-esquerda img {
     max-width: 150px;
     border-radius: 100%;
 }
-header .coluna-esquerda {}
 
 main .skills {
   padding: 4rem;
 }
 
+footer {
+    background-color: black;    
+}
+
+footer .redes-sociais {
+    margin: 14px 14px;
+    text-align: center;
+    display: initial;
+}
 
 @media only screen and (min-width: 768px) {
     
